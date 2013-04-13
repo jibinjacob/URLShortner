@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#container {
+	width: 900px;
+	height: 800px;
+	margin: auto;
+	background-color: #F8F8F8;
+}
+
+#banner {
+	display: table-cell;
+	height: 100px;
+	width: 900px;
+	color: #989898;
+	vertical-align: middle;
+	text-align: center;
+	border-bottom: thin, white;
+}
+
+#form {
+	padding-top: 50px;
+}
+
+.tooltip {
+	margin: 6px;
+	padding: 6px;
+	border: 1px solid #B2B28F;
+	background-color: #FFFFE6;
+	position: absolute;
+	z-index: 2;
+	color: 	#B2B28F;
+}
+
+#longurl {
+	color: #989898;
+}
